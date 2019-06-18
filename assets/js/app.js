@@ -188,7 +188,7 @@ const update = (data) => {
     
 let data = [];
 
-d3.csv("/assets/data/data.csv").then(response => {
+d3.csv("/d3js.journalism/assets/data/data.csv").then(response => {
     data = response.map(item => item);
 
     update(data);
